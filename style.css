@@ -1,0 +1,107 @@
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.img-circle{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.section{
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 10px;
+}
+#header{
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    height: 150px;
+}
+#header img{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#header h1{
+    font-size: 25pt;
+    color:#3b464c;
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
+
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 40%;
+    font-size: 30px;
+    overflow: hidden;
+}
+.half-width img{
+    width: 100%;
+    
+}
+.headerpro{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.row {
+    display:flex;
+}
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 35px;
+    text-align: center;
+    
+}
+.claint{
+    text-align: center;
+    font-size: x-large;
+}
+.leave{
+    background-color: orange;
+    width: 100%;
+    height: 200%;
+    text-align: center;
+    padding: 2px 2px;
+}
+footer p {
+    text-align: center;
+    color: grey;
+}
+.link-button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 200;
+    background-image: linear-gradient(lightsalmon,tomato);
+}
+strong
+{
+    color: palevioletred;
+}
+.sec {
+    text-align: center;
+    font-size: xx-large;
+}
+h1{
+    color: orange;
+}
